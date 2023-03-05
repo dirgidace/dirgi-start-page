@@ -8,7 +8,7 @@ const defaultConfig = {
 	},
 	prompt: {
 		ctrlC: true,
-		placeholder: "command...",
+		placeholder: "",
 		userColor: "blue",
 		atColor: "gray",
 		hostColor: "red",
