@@ -1,19 +1,19 @@
 {
-  "username": "Excalith",
+  "username": "dirgi",
   "terminal": {
-    "fixedHeight": true,
-    "backgroundColor": "#121317",
-    "windowColor": "#1e212b",
-    "glowColor": "#6b5cb157"
+    "fixedHeight": false,
+    "backgroundColor": "#101010",
+    "windowColor": "#191919",
+    "glowColor": ""
   },
   "prompt": {
     "ctrlC": true,
     "placeholder": "command...",
-    "userColor": "green",
+    "userColor": "blue",
     "atColor": "gray",
-    "hostColor": "magenta",
-    "promptColor": "magenta",
-    "promptSymbol": "❯",
+    "hostColor": "red",
+    "promptColor": "red",
+    "promptSymbol": ">",
     "caretColor": "green",
     "selectionBg": "#e8b195",
     "selectionFg": "#16161e"
@@ -21,14 +21,14 @@
   "colors": {
     "white": "#e2e2e2",
     "gray": "#97989d",
-    "black": "#16161e",
-    "red": "#ec6183",
-    "green": "#2ed8a2",
-    "yellow": "#e8b195",
-    "blue": "#2bc3de",
-    "cyan": "#62e0e2",
+    "black": "#1a1818",
+    "red": "#ff474a",
+    "green": "#c3e88d",
+    "yellow": "#ffcb6b",
+    "blue": "#6d7bca",
+    "cyan": "#89ddff",
     "magenta": "#e069aa",
-    "purple": "#d1aff8",
+    "purple": "#c792ea",
     "orange": "#ff8800"
   },
   "fetch": {
@@ -78,163 +78,209 @@
         "alias": "w",
         "name": "Wikipedia Search",
         "url": "https://en.wikipedia.org/wiki/{}"
+      },
+      {
+        "alias": "y",
+        "name": "Youtube Search",
+        "url": "https://www.youtube.com/results?search_query={}"
       }
     ]
   },
   "sections": [
     {
-      "title": "General",
-      "color": "green",
-      "links": [
-        {
-          "name": "Portfolio",
-          "url": "https://cancellek.com",
-          "icon": "mdi:web"
-        },
-        {
-          "name": "Keybase",
-          "url": "https://keybase.io/",
-          "icon": "fa-brands:keybase"
-        },
-        {
-          "name": "GPT",
-          "url": "https://chat.openai.com/",
-          "icon": "simple-icons:openai"
-        },
-        {
-          "name": "OCI",
-          "url": "https://www.oracle.com/cloud/",
-          "icon": "simple-icons:oracle"
-        }
-      ]
-    },
-    {
-      "title": "Dev",
-      "color": "magenta",
-      "links": [
-        {
-          "name": "GitHub",
-          "url": "https://github.com",
-          "icon": "mdi:github"
-        },
-        {
-          "name": "GitLab",
-          "url": "https://gitlab.com",
-          "icon": "ph:gitlab-logo-simple-fill"
-        },
-        {
-          "name": "Dev.to",
-          "url": "https://dev.to",
-          "icon": "material-symbols:logo-dev"
-        },
-        {
-          "name": "Stack Overflow",
-          "url": "https://stackoverflow.com/",
-          "icon": "mdi:stack-overflow"
-        }
-      ]
-    },
-    {
-      "title": "Social",
+      "title": "social",
       "color": "purple",
       "links": [
         {
-          "name": "Twitter",
-          "url": "https://twitter.com",
+          "name": "whatsapp",
+          "url": "https://web.whatsapp.com/",
+          "icon": "mdi:whatsapp"
+        },
+        {
+          "name": "tweetdeck",
+          "url": "https://tweetdeck.twitter.com/",
           "icon": "mdi:twitter"
         },
         {
-          "name": "Mastodon",
-          "url": "https://mastodon.social/",
-          "icon": "ri:mastodon-fill"
+          "name": "tumblr",
+          "url": "https://www.tumblr.com/",
+          "icon": "simple-icons:tumblr"
         },
         {
-          "name": "Reddit",
-          "url": "https://reddit.com",
-          "icon": "mdi:reddit"
+          "name": "facebook",
+          "url": "https://www.facebook.com/",
+          "icon": "simple-icons:facebook"
         },
         {
-          "name": "Polywork",
-          "url": "https://polywork.com",
-          "icon": "simple-icons:polywork"
+          "name": "instagram",
+          "url": "https://www.instagram.com/",
+          "icon": "simple-icons:instagram"
+        },
+        {
+          "name": "discord",
+          "url": "https://discord.com/",
+          "icon": "simple-icons:discord"
         }
       ]
     },
     {
-      "title": "Gaming",
-      "color": "cyan",
-      "links": [
-        {
-          "name": "Polygon",
-          "url": "https://polygon.com",
-          "icon": "uil:polygon"
-        },
-        {
-          "name": "IGN",
-          "url": "https://ign.com",
-          "icon": "mdi:currency-sign"
-        },
-        {
-          "name": "RPS",
-          "url": "https://rockpapershotgun.com/",
-          "icon": "ph:toilet-paper-bold"
-        },
-        {
-          "name": "80lv",
-          "url": "https://80.lv/",
-          "icon": "tabler:hand-rock"
-        }
-      ]
-    },
-    {
-      "title": "Science",
-      "color": "blue",
-      "links": [
-        {
-          "name": "PopSci",
-          "url": "https://popsci.com/",
-          "icon": "material-symbols:science"
-        },
-        {
-          "name": "Space",
-          "url": "fa6-solid:user-astronaut",
-          "icon": "mdi:reddit"
-        },
-        {
-          "name": "NASA",
-          "url": "https://blogs.nasa.gov/",
-          "icon": "simple-icons:nasa"
-        },
-        {
-          "name": "ESA",
-          "url": "https://blogs.esa.int/",
-          "icon": "mdi:black-mesa"
-        }
-      ]
-    },
-    {
-      "title": "Tech",
+      "title": "browsing",
       "color": "yellow",
       "links": [
         {
-          "name": "TechCrunch",
-          "url": "https://techcrunch.com/",
-          "icon": "game-icons:techno-heart"
+          "name": "reddit",
+          "url": "https://www.reddit.com/",
+          "icon": "mdi:reddit"
         },
         {
-          "name": "Verge",
-          "url": "https://www.theverge.com/",
-          "icon": "arcticons:verge"
+          "name": "pinterest",
+          "url": "https://www.pinterest.com/",
+          "icon": "mdi:pinterest"
         },
         {
-          "name": "It's Foss",
-          "url": "https://itsfoss.com/",
-          "icon": "ri:mastodon-fill"
+          "name": "youtube",
+          "url": "https://www.youtube.com/",
+          "icon": "simple-icons:youtube"
         },
         {
-          "name": "9To5 Linux",
-          "url": "https://9to5linux.com/",
-          "icon": "uil:linux"
+          "name": "tiktok",
+          "url": "https://www.tiktok.com/",
+          "icon": "simple-icons:tiktok"
+        },
+        {
+          "name": "twitch",
+          "url": "https://www.twitch.tv/",
+          "icon": "simple-icons:twitch"
+        }
+      ]
+    },
+    {
+      "title": "art",
+      "color": "red",
+      "links": [
+        {
+          "name": "pixiv",
+          "url": "https://www.pixiv.net/en/",
+          "icon": "simple-icons:pixiv"
+        },
+        {
+          "name": "deviantart",
+          "url": "https://www.deviantart.com/",
+          "icon": "mdi:deviantart"
+        },
+        {
+          "name": "furaffinity",
+          "url": "https://www.furaffinity.net/",
+          "icon": "simple-icons:furaffinity"
+        },
+        {
+          "name": "safebooru",
+          "url": "https://safebooru.org/",
+          "icon": "mdi:view-gallery-outline"
+        }
+      ]
+    },
+    {
+      "title": "downloads",
+      "color": "green",
+      "links": [
+        {
+          "name": "https://www.reddit.com/r/Piracy/",
+          "url": "https://cancellek.com",
+          "icon": "mdi:reddit"
+        },
+        {
+          "name": "fitgirl",
+          "url": "https://fitgirl-repacks.site/",
+          "icon": "mdi:gamepad-variant"
+        },
+        {
+          "name": "1337x",
+          "url": "https://1337x.to/",
+          "icon": "mdi:download"
+        },
+        {
+          "name": "piracy.moe",
+          "url": "https://theindex.moe/",
+          "icon": "mdi:television-classic"
+        },
+        {
+          "name": "getcomics.info",
+          "url": "https://getcomics.info/",
+          "icon": "mdi:thought-bubble"
+        }
+      ]
+    },
+    {
+      "title": "utility",
+      "color": "blue",
+      "links": [
+        {
+          "name": "tinywow",
+          "url": "https://tinywow.com/",
+          "icon": "mdi:file-pdf-box"
+        },
+        {
+          "name": "latex2png",
+          "url": "https://latex2png.com/",
+          "icon": "simple-icons:latex"
+        },
+        {
+          "name": "docs.google",
+          "url": "https://docs.google.com/",
+          "icon": "mdi:file-document"
+        }
+      ]
+    },
+    {
+      "title": "college",
+      "color": "orange",
+      "links": [
+        {
+          "name": "evirtual",
+          "url": "https://grado.ucuenca.edu.ec/my/",
+          "icon": "mdi:school"
+        },
+        {
+          "name": "sga",
+          "url": "https://estudiante.ucuenca.edu.ec/",
+          "icon": "mdi:school"
+        },
+        {
+          "name": "gmail",
+          "url": "https://mail.google.com/",
+          "icon": "simple-icons:gmail"
+        }
+      ]
+    },
+    {
+      "title": "acc",
+      "color": "purple",
+      "links": [
+        {
+          "name": "gmail",
+          "url": "https://mail.google.com/",
+          "icon": "simple-icons:gmail"
+        },
+        {
+          "name": "drive",
+          "url": "https://drive.google.com/",
+          "icon": "simple-icons:googledrive"
+        },
+        {
+          "name": "banco de loja",
+          "url": "https://www2.bancodeloja.fin.ec/webbancapersonal/ingreso.htm",
+          "icon": "mdi:bank"
+        },
+        {
+          "name": "banco pichincha",
+          "url": "https://bancaweb.pichincha.com/",
+          "icon": "mdi:bank"
+        },
+        {
+          "name": "paypal",
+          "url": "https://www.paypal.com/ec/home",
+          "icon": "simple-icons:paypal"
         }
       ]
     }
