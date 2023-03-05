@@ -185,8 +185,8 @@ const defaultConfig = {
 			color: "green",
 			links: [
 				{
-					name: "https://www.reddit.com/r/Piracy/",
-					url: "https://cancellek.com",
+					name: "r/Piracy",
+					url: "https://www.reddit.com/r/Piracy/",
 					icon: "mdi:reddit"
 				},
 				{
