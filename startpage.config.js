@@ -268,12 +268,12 @@ const defaultConfig = {
 					icon: "simple-icons:googledrive"
 				},
 				{
-					name: "banco de loja",
+					name: "b loja",
 					url: "https://www2.bancodeloja.fin.ec/webbancapersonal/ingreso.htm",
 					icon: "mdi:bank"
 				},
 				{
-					name: "banco pichincha",
+					name: "b pichincha",
 					url: "https://bancaweb.pichincha.com/",
 					icon: "mdi:bank"
 				},
