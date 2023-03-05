@@ -53,7 +53,7 @@ a:visited {
 }
 
 a:hover {
-	color: var(--purple) !important;
+	color: var(--red) !important;
 	transition: color 0.2s !important; 
 }
 
